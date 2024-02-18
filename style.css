@@ -1,0 +1,211 @@
+body{
+    background-color: aquamarine;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+nav{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #578c7b;
+    padding: 15px;
+    overflow: hidden;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.navbar-mainlogo{
+    padding-left: 35px;
+}
+.navbar-mainhead{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 155px;
+    transition: transform 0.3s ease;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+h1{
+    transition: transform 0.3s ease;
+}
+h1:hover{
+    transform: scale(1.2);
+}
+.navbar-mainhead:hover{
+    transform: scale(1.2);
+    /*color:chocolate;*/
+}
+.navbar-mainsocials{
+    padding: 15px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-n{
+    padding: 2px;
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+    transition: transform 0.3s ease;
+}
+.navbar-n:hover{            
+    border-radius: 50%;
+    transform: scale(1.5);
+}
+.main-outer{
+    margin: 10px;
+    padding: 10px;
+    background-color: pink;
+    align-items: center;
+    border-radius: 0.75%;
+}
+.namepfpbio{
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+.namebio{
+    width: 70%;
+    padding: 10px;
+    padding-left: 40px;
+    justify-content: center;
+    font-size: 25px;
+}
+.namebio span u {
+    text-decoration: underline;
+    font-size: 40px;
+    font-family: Georgia;
+}
+
+.pfp{
+    width: 30%;
+}
+.pfp img{
+    border-radius: 5px;
+    width: 100%;
+}
+
+.contactdetails{
+    background-color: deepskyblue ;
+    border-radius: 10px;
+    padding: 10px;
+}
+.contactdetails h1{
+    padding: 30px;
+    font-size: 30px;
+    text-decoration-line: underline;
+}
+.contactdetails table{
+    text-align: center;
+}
+
+
+.skillproj{
+    justify-content: space-evenly;
+    display: flex;
+    padding: 10px;
+    background-color:brown;
+    border-radius: 20px;
+}
+.skill{
+    padding: 20px;
+    width: 45%;
+    background-color: burlywood;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.proj{
+    padding: 20px;
+    width: 45%;
+    background-color:chartreuse;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.skillproj  h1 {
+    text-decoration: underline;
+}
+
+.resume{
+    padding: 10px;
+    border-radius: 2%;
+    background-color: cornsilk;
+    text-align: center;
+}
+.resume iframe{
+    width: 60%;
+    height: 800px;
+    border-radius: 2%;
+}
+.resume span{
+    font-size: 20px;
+    text-decoration-line: underline;
+}
+
+.ejukesan{
+    border-radius: 2%;
+    padding: 10px;
+    background-color:darkgray;
+}
+.ejukesan table tr, td{
+    width: 250px;
+    height: 40px;
+    background-color: beige;
+}
+.ejukesan table th{
+    font-size: 18px;
+}
+
+.ejukesan table td,th{
+    border-radius: 2%;
+}
+.sno{
+    width: 70px;
+}
+.ejukesan span h1{
+    
+    text-decoration: underline;
+}
+.exp td{
+    text-align: center;
+}
+.exp h1{
+    text-decoration-line: underline;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+/* .exp th{
+    background-color: aliceblue;
+} */
+.exp{
+    padding: 10px;
+    border-radius: 10px;
+    background-color:darkturquoise;
+}
+.exp th{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.exp table{
+    font-size: 15px;
+    padding: 10px;
+    width: 70%;
+}
+.orgpic{
+    width: 100px;
+}
+.orgpic img{
+    width: 100px;
+    height: 100px; 
+}
+marquee{
+    font-size: 20px;
+}
